@@ -42,3 +42,6 @@ sdk.dir=/Users/username/Library/Android/sdk
 ```
 
 - `cd .. & react-native run-ios/android`
+
+#### Preview
+![alt text](https://github.com/marcin-lukasik/breaking_bad_characters/blob/main/src/assets/Demo.gif?raw=true)
