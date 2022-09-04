@@ -1,0 +1,30 @@
+{
+  "presets": ["module:metro-react-native-babel-preset"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": [
+          { "@shared-constants": "./src/shared/constants" },
+          { "@shared-interfaces": "./src/shared/interfaces" },
+          { "@font-size": "./src/shared/theme/font-size" },
+          { "@api": "./src/services/api/index" },
+          { "@fonts": "./src/shared/theme/fonts" },
+          { "@colors": "./src/shared/theme/colors" },
+          { "@theme": "./src/shared/theme" },
+          { "@models": "./src/services/models" },
+          { "@services": "./src/services" },
+          { "@screens": "./src/screens" },
+          { "@components": "./src/components" },
+          { "@utils": "./src/utils/" },
+          { "@assets": "./src/assets/" },
+          { "@event-emitter": "./src/services/event-emitter" },
+          { "@local-storage": "./src/services/local-storage" }
+        ],
+        "extensions": [".js", ".jsx", ".ts", ".tsx"]
+      }
+    ],
+    "react-native-reanimated/plugin"
+  ]
+}
